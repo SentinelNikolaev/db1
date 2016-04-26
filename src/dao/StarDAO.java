@@ -13,7 +13,7 @@ import java.util.List;
  * Created by Eugeny on 23.04.2016.
  */
 public class StarDAO {
-    Connection connection;
+    private Connection connection;
 
     public StarDAO(Connection connection) {
         this.connection = connection;
